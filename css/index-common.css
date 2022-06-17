@@ -13,6 +13,7 @@
     --light-gray-color: #D6D6D6;
     --light-gray-desaturated: #F0F0F0;
     --white-background: #FFFAFA;
+    scroll-behavior: smooth;
 }
 
 * {
