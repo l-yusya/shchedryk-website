@@ -211,7 +211,6 @@ section div nav .navigation-logo img {
         height: 100%;
         background-color: var(--white-background);
         z-index: 2;
-        transition: top 0.3s ease-in;
         padding: 15px 24px 50px 24px;
         transition: top 0.3s ease-in 0.1s;
         overflow: hidden;
