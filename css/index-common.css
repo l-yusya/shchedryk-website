@@ -4,4 +4,32 @@
     font-family: 'Poppins', sans-serif;
     --main-text-font: 'Open Sans', sans serif;
     --button-text-font: 'Hind', sans-serif;
+    --dark-red-color: #C61017;
+    --red-accent-color: #ED1C24;
+    --dark-red-desaturated: #F25F64;
+    --red-accent-desaturated: #F68E92;
+    --dark-gray-color: #484B4C;
+    --gray-accent-color: #616566;
+    --light-gray-color: #D6D6D6;
+    --light-gray-desaturated: #F0F0F0;
+    --white-background: #FFFAFA;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
