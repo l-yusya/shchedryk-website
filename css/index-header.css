@@ -13,6 +13,7 @@ header .languages_white {
 }
 
 header .languages__item {
+    font-family: var(--main-text-font);
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 1.3px;
@@ -71,13 +72,14 @@ header .contacts__item_black a:hover {
     }
 
     header .languages__item {
+        font-family: var(--main-text-font);
         display: flex;
         flex-direction: row-reverse;
     }
 
     .country_flag {
         height: 0.8rem;
-        width: auto;
+        width: 28px;
         padding-right: 8px;
     }
 }
@@ -210,6 +212,7 @@ section div nav .navigation-logo img {
         width: 100%;
         height: 100%;
         background-color: var(--white-background);
+        opacity: 0.95;
         z-index: 2;
         padding: 15px 24px 50px 24px;
         transition: top 0.3s ease-in 0.1s;
@@ -227,8 +230,9 @@ section div nav .navigation-logo img {
 
     section div nav .navigation-pages {
         position: relative;
-        font-size: 0.92rem;
-        font-weight: 700;
+        font-family: var(--main-text-font);
+        font-size: 1rem;
+        font-weight: 800;
         line-height: 3rem;
         display: flex;
         flex-direction: column;
@@ -241,8 +245,9 @@ section div nav .navigation-logo img {
 
     section div nav .navigation__languages {
         position: relative;
-        font-size: 0.92rem;
-        font-weight: 700;
+        font-family: var(--main-text-font);
+        font-size: 1rem;
+        font-weight: 800;
         line-height: 3rem;
         display: flex;
         flex-direction: column;
@@ -253,10 +258,19 @@ section div nav .navigation-logo img {
         padding-top: 100px;
     }   
     
+    .navigation__languages--ukr, 
+    .navigation__languages--eng {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        font-family: var(--main-text-font);
+    }
+
     .country_flag {
         height: 0.8rem;
-        width: auto;
-        }
+        width: 20px;
+        margin-right: 10px;
+ }
 
     body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a {
         color: var(--nav-pages-color);
@@ -284,6 +298,8 @@ section div nav .navigation-logo img {
     section div nav .navigation-social img {
         max-width: 28px;
         border-radius: 0.4rem;
+        margin-top: 30px;
+
     }
 }
 
@@ -412,9 +428,9 @@ section div .banner__text {
 }
 
 div .banner__text h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 800;
-    line-height: 66px;
+    line-height: 4rem;
     color: var(--white-background);
     max-width: 300px;
     height: auto;
@@ -494,6 +510,25 @@ div .links__invite:hover {
 
     div .banner__text h1 {
         max-width: 530px;
+    }
+}
+
+@media (min-width: 670px) {
+
+    .container-top,
+    .container-section {
+        max-width: 700px;
+    }
+
+    section div .banner__text {
+        width: 50%;
+    }
+
+    div .banner__text h1 {
+        font-size: 4rem;
+        line-height: 4.85rem;
+        margin-top: 0;
+        max-width: 301px;
     }
 }
 
