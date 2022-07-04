@@ -1,0 +1,21 @@
+.about {
+    padding: 85px 24px 40px 24px;
+}
+
+.about__title {
+    color: var(--headings-dark-color);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: left;
+}
+
+.divider {
+    background-color: var(--dark-red-color);
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    left: 15;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    line-height: 10px;
+}
