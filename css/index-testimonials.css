@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.brewery-gallery__slider_button {
+.testimonials__slider_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,12 +50,12 @@
     opacity: 0.6;
 }
 
-.brewery-gallery__slider_button:hover {
+.testimonials__slider_button:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.brewery-gallery__slider_button-image {
+.testimonials__slider_button-image {
     width: 15px;
     height: 15px;
 }
@@ -164,7 +164,7 @@
         margin-top: 10px;
     }
 
-    .brewery-gallery__slider_button {
+    .testimonials__slider_button {
         width: 35px;
         height: 35px;
 
@@ -191,7 +191,7 @@
         margin-top: 10px;
     }
 
-    .brewery-gallery__slider_button {
+    .testimonials__slider_button {
         width: 35px;
         height: 35px;
 
@@ -223,7 +223,7 @@
         height: 62vh;
     }
 
-    .brewery-gallery__slider_button-image {
+    .testimonials__slider_button-image {
         width: 20px;
         height: 20px;
     }
@@ -276,7 +276,7 @@
         height: 55vh;
     }
 
-    .brewery-gallery__slider_button-image {
+    .testimonials__slider_button-image {
         width: 30px;
         height: 30px;
     }

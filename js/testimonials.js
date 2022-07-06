@@ -109,12 +109,12 @@
   showCurrentSlide();
 
   const nextButton = document.querySelector(
-    ".brewery-gallery__slider_button-right"
+    ".testimonials__slider_button-right"
   );
   nextButton.addEventListener("click", nextSlide);
 
   const prevButton = document.querySelector(
-    ".brewery-gallery__slider_button-left"
+    ".testimonials__slider_button-left"
   );
   prevButton.addEventListener("click", prevSlide);
 
