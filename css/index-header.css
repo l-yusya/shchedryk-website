@@ -609,6 +609,23 @@ div .links__invite:hover {
     div .banner__text p {
         font-size: 1.11rem;
     }
+
+    div .banner__links a {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .banner__links {
+        margin-top: 30px;
+    }
+
+    .links__donate {
+        margin-right: 50px;
+    }
+
+    .links__invite {
+        margin-left: 100px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -650,6 +667,7 @@ div .links__invite:hover {
 
     section div .banner__text {
         width: 100%;
+        padding-top: 60px;
         /* max-width: 585px; */
     }
 
@@ -665,4 +683,6 @@ div .links__invite:hover {
         font-size: 1.5em;
         line-height: 2.5em;
     }
+
+
 }
