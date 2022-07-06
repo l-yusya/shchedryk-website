@@ -9,11 +9,12 @@
     --red-accent-color: #ED1C24;
     --dark-red-desaturated: #F25F64;
     --red-accent-desaturated: #F68E92;
+    --divider-color: #f50f24;
     --dark-gray-color: #484B4C;
     --gray-accent-color: #616566;
     --light-gray-color: #D6D6D6;
     --light-gray-desaturated: #F0F0F0;
-    --white-background: #FFFAFA;
+    --white-background: rgb(255, 250, 250);
     --headings-dark-color: #1b1929;
     scroll-behavior: smooth;
 }
