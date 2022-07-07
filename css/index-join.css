@@ -1,0 +1,66 @@
+.join {
+    background: linear-gradient(to bottom, rgba(198, 16, 23, 0.4),
+            rgba(198, 16, 23, 0.4)),
+        url(../img/gallery/one-round-choristes.jpg) no-repeat;
+    padding: 0 24px;
+    background-position: 50.63% 59.4%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 85px 15px 40px 15px;
+    ;
+}
+
+.join__title {
+    color: var(--white-background);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 30px 15px 10px 15px;
+}
+
+.join__divider {
+    background-color: var(--divider-color);
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    left: 42vw;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.join__btn {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    height: 47px;
+    width: 180px;
+    font-family: var(--button-text-font);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--red-accent-color);
+    background-color: var(--white-background);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.join__btn:hover {
+    background-color: var(--dark-red-color);
+    color: var(--white-background);
+    transition: 1s;
+}
+
+.join__btn:active {
+    background-color: var(--dark-red-color);
+    color: var(--white-background);
+    transition: 1s;
+}
+
+.join__btn--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

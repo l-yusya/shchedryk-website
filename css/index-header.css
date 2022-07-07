@@ -484,23 +484,35 @@ div .links__donate {
     color: var(--white-background);
     transition: 1s;
     border-radius: 27px;
-    box-shadow: 2px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 div .links__donate:hover {
-    background-color: var(--dark-gray-color);
-    color: var(--white-background);
+    background-color: var(--white-background);
+    color: var(--dark-gray-color);
+    transition: 1s;
+}
+
+div .links__donate:active {
+    background-color: var(--white-background);
+    color: var(--dark-gray-color);
     transition: 1s;
 }
 
 div .links__invite {
     background-color: var(--white-background);
     color: var(--dark-red-color);
-    box-shadow: 2px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 27px;
 }
 
 div .links__invite:hover {
+    background-color: var(--dark-red-color);
+    color: var(--white-background);
+    transition: 1s;
+}
+
+div .links__invite:active {
     background-color: var(--dark-red-color);
     color: var(--white-background);
     transition: 1s;

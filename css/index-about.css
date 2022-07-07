@@ -34,8 +34,8 @@
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 5px 10px;
-    height: 38px;
+    padding: 10px 15px;
+    height: 47px;
     width: 180px;
     font-family: var(--button-text-font);
     font-size: 0.9rem;
@@ -49,6 +49,12 @@
 }
 
 .about__link:hover {
+    background-color: var(--dark-gray-color);
+    color: var(--white-background);
+    transition: 1s;
+}
+
+.about__link:active {
     background-color: var(--dark-gray-color);
     color: var(--white-background);
     transition: 1s;
