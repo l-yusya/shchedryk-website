@@ -269,7 +269,7 @@ section div nav .navigation-logo img:hover {
         align-items: center;
         height: auto;
         z-index: 10;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .navigation__languages--ukr,
@@ -280,24 +280,96 @@ section div nav .navigation-logo img:hover {
         font-family: var(--main-text-font);
     }
 
+    .navigation__languages--ukr a,
+    .navigation__languages--eng a {
+        color: var(--dark-gray-color);
+    }
+
+    .navigation__languages--ukr a:hover,
+    .navigation__languages--eng a:hover {
+        color: var(--headings-dark-color);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-color);
+        text-decoration-thickness: 2px;
+    }
+
+    /* section div nav .navigation-pages a:visited {
+            color: var(--dark-gray-color);
+        } */
+
+    .navigation__languages--ukr a:active,
+    .navigation__languages--eng a:active {
+        color: var(--headings-dark-color);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-color);
+        text-decoration-thickness: 2px;
+    }
+
     .country_flag {
         height: 0.8rem;
         width: 20px;
         margin-right: 10px;
     }
 
-    body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a {
-        color: var(--nav-pages-color);
+    /* body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a:link {
+        color: var(--dark-gray-color);
         opacity: 0.8;
     }
 
+
     body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a:hover {
-        color: var(--button-black-color);
+        color: var(--headings-dark-color);
+    } */
+
+    section div nav .navigation-pages a {
+        color: var(--dark-gray-color);
     }
 
     section div nav .navigation-pages a:hover {
-        color: var(--button-black-color);
+        color: var(--headings-dark-color);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-color);
+        text-decoration-thickness: 2px;
     }
+
+    /* section div nav .navigation-pages a:visited {
+        color: var(--dark-gray-color);
+    } */
+
+    section div nav .navigation-pages a:active {
+        color: var(--headings-dark-color);
+        text-decoration: underline;
+        text-decoration-color: var(--dark-red-color);
+        text-decoration-thickness: 2px;
+    }
+
+    /* section div nav .navigation-pages a:hover:after {
+        width: 20%;
+    }
+
+    section div nav .navigation-pages a::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 40%;
+        width: 0;
+        height: 3px;
+        border-radius: 0.1rem;
+        background-color: var(--dark-red-color);
+        transition: width 0.2s ease-in;
+    } */
+
+    /* section div nav .navigation-pages a:hover {
+        color: var(--headings-dark-color);
+    } */
+
+    /* body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a:visited {
+        color: var(--dark-gray-color);
+    }
+
+    body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a:active {
+        color: var(--headings-dark-color);
+    } */
 
     section div nav .navigation-social {
         position: relative;
@@ -313,7 +385,10 @@ section div nav .navigation-logo img:hover {
         max-width: 28px;
         border-radius: 0.4rem;
         margin-top: 30px;
+    }
 
+    section div nav .navigation-social img:hover {
+        transform: scale(1.5);
     }
 }
 
@@ -469,7 +544,7 @@ div .links {
 
 div .links a {
     font-family: var(--button-text-font);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     font-weight: 700;
     line-height: 1rem;
@@ -479,40 +554,41 @@ div .links a {
     padding: 15px 35px;
 }
 
-div .links__donate {
+.links__donate {
     background-color: var(--dark-red-color);
     color: var(--white-background);
-    transition: 1s;
-    border-radius: 27px;
+    border-radius: 25px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 180px;
 }
 
-div .links__donate:hover {
+.links__donate:hover {
     background-color: var(--white-background);
     color: var(--dark-gray-color);
     transition: 1s;
 }
 
-div .links__donate:active {
+.links__donate:active {
     background-color: var(--white-background);
     color: var(--dark-gray-color);
     transition: 1s;
 }
 
-div .links__invite {
+.links__invite {
     background-color: var(--white-background);
     color: var(--dark-red-color);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 27px;
+    border-radius: 25px;
+    width: 180px;
 }
 
-div .links__invite:hover {
+.links__invite:hover {
     background-color: var(--dark-red-color);
     color: var(--white-background);
     transition: 1s;
 }
 
-div .links__invite:active {
+.links__invite:active {
     background-color: var(--dark-red-color);
     color: var(--white-background);
     transition: 1s;
