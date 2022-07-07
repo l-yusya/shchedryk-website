@@ -1,0 +1,128 @@
+.contacts {
+    background: linear-gradient(to bottom, rgba(72, 75, 76, 0.7), rgba(97, 101, 102, 0.7)), url(../img/gallery/foto-04.jpg) no-repeat;
+    padding: 85px 10px 50px 10px;
+    background-position: 48.44% 35.95%;
+    background-attachment: fixed;
+}
+
+.contacts__title {
+    color: var(--white-background);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 10px 24px 10px 24px;
+}
+
+.contacts__divider {
+    background-color: var(--divider-color);
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    z-index: 2;
+    left: 42.5vw;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media (min-width: 480px) {
+    .contacts__divider {
+        left: 46vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .contacts__divider {
+        left: 47vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contacts__divider {
+        left: 48.3vw;
+    }
+}
+
+.address__wrapper {
+    background-color: rgba(97, 101, 102, 0.6);
+    backdrop-filter: blur(2px);
+    margin: 30px auto;
+    padding: 30px 20px 30px 20px;
+}
+
+.contacts__address {
+    display: block;
+    padding: 10px 15px 10px 15px;
+}
+
+.address__title {
+    color: var(--white-background);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+.address {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 46px;
+    color: var(--white-background);
+}
+
+.address__info {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white-background);
+    padding-top: 10px;
+}
+
+.contacts__contact-person {
+    display: block;
+    padding: 10px 15px 10px 15px;
+}
+
+.contact-person__title {
+    color: var(--white-background);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+.contact-person {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    color: var(--white-background);
+}
+
+.contact-person__photo {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    object-fit: cover;
+    object-position: 38% 5%;
+    margin: 10px 0;
+}
+
+.contact-person__phone,
+.phone__link,
+.contact-person__email,
+.email__link {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white-background);
+    padding-top: 10px;
+}
+
+.phone__link:hover,
+.email__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contacts__map {
+    display: flex;
+    justify-content: center;
+}

@@ -11,7 +11,7 @@
     --red-accent-desaturated: #F68E92;
     --divider-color: #f50f24;
     --dark-gray-color: #484B4C;
-    --gray-accent-color: #616566;
+    --gray-accent-color: rgb(97, 101, 102);
     --light-gray-color: #D6D6D6;
     --light-gray-desaturated: #F0F0F0;
     --white-background: #fffafa;
@@ -26,7 +26,7 @@
 
 a {
     text-decoration: none;
-    color: var(--main-text-color);
+    /* color: var(--main-text-color); */
 }
 
 img {
