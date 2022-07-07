@@ -65,6 +65,12 @@
     align-items: center;
 }
 
+@media (min-width: 480px) {
+    .join__divider {
+        left: 45.4vw;
+    }
+}
+
 @media (min-width: 768px) {
     .join__divider {
         left: 47vw;
