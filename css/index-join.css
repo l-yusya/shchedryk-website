@@ -64,3 +64,15 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 768px) {
+    .join__divider {
+        left: 47vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .join__divider {
+        left: 48.3vw;
+    }
+}

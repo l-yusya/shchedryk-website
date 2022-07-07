@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Дитячий хор "Щедрик"</title>
   <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css.map">
@@ -340,7 +342,21 @@
     <section class="videos"></section>
     <section class="services"></section>
     <section class="partners">
-      <h2 class="partners__title">Наші партнери</h2>
+      <div class="container">
+        <h2 class="partners__title">Наші партнери</h2>
+        <div class="partners-slider" id="brands">
+          <div class="partners-container">
+            <a class="carousel-control carousel-control-prev">
+              <i class="uil uil-angle-left-b control-icon"></i>
+            </a>
+            <div class="partners-carousel">
+            </div>
+            <a class="carousel-control carousel-control-next">
+              <i class="uil uil-angle-right-b control-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
       <!-- <div id="partners_carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -413,6 +429,7 @@
   </footer>
   <script type="text/javascript" src="js/burger-menu.js"></script>
   <script type="text/javascript" src="js/testimonials.js"></script>
+  <script type="text/javascript" src="js/partners-carousel.js"></script>
 </body>
 
 </html>
