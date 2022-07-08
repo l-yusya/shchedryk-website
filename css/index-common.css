@@ -13,7 +13,7 @@
     --dark-gray-color: rgb(72, 75, 76);
     --gray-accent-color: rgb(97, 101, 102);
     --light-gray-color: #D6D6D6;
-    --light-gray-desaturated: #F0F0F0;
+    --light-gray-desaturated: rgb(240, 240, 240);
     --white-background: #fffafa;
     --headings-dark-color: #1b1929;
     scroll-behavior: smooth;
