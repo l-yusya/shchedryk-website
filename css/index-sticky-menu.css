@@ -1,11 +1,21 @@
 .navigation-sticky {
     background-color: var(--dark-red-color);
-    padding: 0 15px;
+    padding: 0 24px;
+}
+
+section div nav .navigation-logo-sticky img {
+    max-width: 114px;
 }
 
 @media (max-width: 990px) {
     body.lock {
         overflow: hidden;
+    }
+
+
+    .container-sticky {
+        width: 100%;
+        display: flex;
     }
 
     .navigation-logo-sticky {
@@ -17,13 +27,13 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 0;
-        z-index: 10;
+        padding: 20px 0;
+        z-index: 11;
     }
 
-    .navigation-logo-sticky img {
+    /* .navigation-logo-sticky img {
         width: 70%;
-    }
+    } */
 
     .navigation-burger-sticky {
         display: block;
@@ -104,7 +114,7 @@
         top: 0;
     }
 
-    section div nav .navigation-pages {
+    section div nav .navigation-pages-sticky {
         position: relative;
         font-family: var(--main-text-font);
         font-size: 1rem;
@@ -169,18 +179,18 @@
         margin-right: 10px;
     }
 
-    .navigation-pages a {
+    .navigation-pages-sticky a {
         color: var(--dark-gray-color);
     }
 
-    .navigation-pages a:hover {
+    .navigation-pages-sticky a:hover {
         color: var(--headings-dark-color);
         text-decoration: underline;
         text-decoration-color: var(--dark-red-color);
         text-decoration-thickness: 2px;
     }
 
-    .navigation-pages a:active {
+    .navigation-pages-sticky a:active {
         color: var(--headings-dark-color);
         text-decoration: underline;
         text-decoration-color: var(--dark-red-color);

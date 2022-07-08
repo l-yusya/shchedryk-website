@@ -1,0 +1,9 @@
+/* .about-banner-bg {
+    min-height: 10vh;
+} */
+
+.about-banner-bg_origin {
+    /* background: linear-gradient(to bottom, rgba(72, 75, 76, 0.7), rgba(97, 101, 102, 0.7)); */
+    background-color: var(--gray-accent-color);
+    padding: 0 24px;
+}
