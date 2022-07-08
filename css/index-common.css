@@ -5,12 +5,12 @@
     --main-text-font: 'Open Sans', sans serif;
     --button-text-font: 'Hind', sans-serif;
     --main-text-color: #545280;
-    --dark-red-color: #C61017;
+    --dark-red-color: rgb(198, 16, 23);
     --red-accent-color: #ED1C24;
-    --dark-red-desaturated: #f25f64;
+    --dark-red-desaturated: rgb(242, 95, 100);
     --red-accent-desaturated: #F68E92;
     --divider-color: #f50f24;
-    --dark-gray-color: #484B4C;
+    --dark-gray-color: rgb(72, 75, 76);
     --gray-accent-color: rgb(97, 101, 102);
     --light-gray-color: #D6D6D6;
     --light-gray-desaturated: #F0F0F0;

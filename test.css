@@ -1,156 +1,21 @@
-/* .about-banner-bg {
-    min-height: 10vh;
-} */
-
-.about-banner-bg_origin {
-    /* background: linear-gradient(to bottom, rgb(72, 75, 76), rgb(97, 101, 102)); */
-    background-color: var(--light-gray-color);
-    padding: 0 24px;
+:root {
+    font-family: 'Poppins', sans-serif;
+    --main-text-font: 'Open Sans', sans serif;
+    --button-text-font: 'Hind', sans-serif;
+    --main-text-color: #545280;
+    --dark-red-color: #C61017;
+    --red-accent-color: #ED1C24;
+    --dark-red-desaturated: #f25f64;
+    --red-accent-desaturated: #F68E92;
+    --divider-color: #f50f24;
+    --dark-gray-color: #484B4C;
+    --gray-accent-color: rgb(97, 101, 102);
+    --light-gray-color: #D6D6D6;
+    --light-gray-desaturated: #F0F0F0;
+    --white-background: #fffafa;
+    --headings-dark-color: #1b1929;
+    scroll-behavior: smooth;
 }
-
-@media (min-width: 991px) {
-    /* .container-top_flex {
-        max-width: 1100px;
-        margin: auto;
-    } */
-
-    section div nav .navigation-burger {
-        display: none;
-    }
-
-    section div nav.navigation {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        justify-content: stretch;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-
-    section div nav .navigation-pages,
-    .navigation-social {
-        display: flex;
-    }
-
-    header .banner-bg {
-        min-height: calc(100vh - 79px);
-    }
-
-    section div .navigation .navigation-wrapper {
-        display: grid;
-        grid-template-columns: 90% 10%;
-        grid-template-rows: auto;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    section div nav .navigation-pages {
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: var(--nav-pages-color);
-        min-width: 480px;
-        display: flex;
-        justify-content: space-around;
-        height: auto;
-    }
-
-    section div nav .navigation-pages a {
-        position: relative;
-        font-size: 1.2rem;
-        color: var(--headings-dark-color);
-        font-weight: 700;
-        text-decoration: none;
-        line-height: 1.5rem;
-    }
-}
-
-
-.about__title {
-    color: var(--headings-dark-color);
-    font-size: 38px;
-    font-weight: 800;
-    line-height: 46px;
-    text-align: left;
-}
-
-.divider {
-    background-color: var(--divider-color);
-    height: 2px;
-    width: 45px;
-    position: absolute;
-    left: 15;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    margin: 10px 0;
-}
-
-.about__description {
-    margin-top: 20px;
-    display: block;
-    font-family: var(--main-text-font);
-    font-size: 0.95rem;
-    font-weight: 400;
-    color: var(--main-text-color);
-    line-height: 1.6rem;
-}
-
-.about-photo {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    height: 20%;
-    object-fit: cover;
-    position: relative;
-    filter: contrast(1.4);
-}
-
-.music-halls__list {
-    padding-top: 20px;
-    padding-right: 20px;
-    list-style-image: url("../img/music_note_small.svg");
-}
-
-.music-halls__list--item {
-    color: var(--main-text-color);
-    font-weight: 500;
-    padding: 5px 0;
-}
-
-
-@media (min-width: 768px) {
-    .about {
-        display: block;
-        /* grid-template-columns: 40% 55%;
-        grid-template-areas:
-            "info photo";
-        grid-column-gap: 50px; */
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-
-    .about__info--photo {
-        justify-self: center;
-        align-self: center;
-    }
-
-    .about__description {
-        font-size: 0.95rem;
-        margin-top: 20px;
-    }
-
-    .about-photo {
-        margin: 0 auto;
-        padding: 40px 0 10px;
-    }
-
-    .about__title {
-        font-size: 2.8rem;
-        text-align: center;
-    }
-
-    .divider {
-        left: 47vw;
-    }
-}
-
 
 .cd-container {
     width: 90%;
@@ -175,8 +40,8 @@ Main components
 
 #cd-timeline {
     position: relative;
-    padding: 0;
-    /* margin-top: 2em; */
+    padding: 2em 0;
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
@@ -223,7 +88,7 @@ Main components
 
 @media (min-width: 1170px) {
     .cd-timeline-block {
-        margin: 2em 0;
+        margin: 4em 0;
     }
 
     .cd-timeline-block:first-child {
@@ -256,6 +121,9 @@ Main components
         left: 50%;
         margin-left: -15px;
         margin-top: 15px;
+        /* Force Hardware Acceleration in WebKit */
+        /* -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden; */
     }
 }
 
@@ -266,15 +134,14 @@ Main components
     background-color: rgba(97, 101, 102, 0.2);
     backdrop-filter: blur(15px);
     border-radius: 2px;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
 }
 
 .cd-timeline-content .timeline-content-info {
     background: var(--dark-gray-color);
     padding: 5px 10px;
     color: var(--headings-dark-color);
-    font-size: 1rem;
+    font-size: 12px;
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08);
     border-radius: 2px;
 }
@@ -306,14 +173,13 @@ Main components
 
 .cd-timeline-content h2 {
     color: var(--headings-dark-color);
-    padding-top: 5px;
+    margin-top: 0;
     margin-bottom: 5px;
-    font-size: 1.3rem;
 }
 
 .cd-timeline-content p,
 .cd-timeline-content .cd-date {
-    color: var(--headings-dark-color);
+    color: var(--main-text-color);
     font-size: 1rem;
 }
 
@@ -354,15 +220,11 @@ Main components
 
 @media (min-width: 1170px) {
     .cd-timeline-content {
-        color: var(--headings-dark-color);
-        margin-left: 5px;
-        padding: 0.5em 1em;
-        width: 40%;
+        color: var(--main-text-color);
+        margin-left: 0;
+        padding: 1.6em;
+        width: 36%;
         margin: 0 5%
-    }
-
-    .cd-timeline-content p {
-        font-size: 1.1rem;
     }
 
     .cd-timeline-content::before {
@@ -372,14 +234,14 @@ Main components
         border-left-color: var(--dark-gray-color);
     }
 
-    /* .cd-timeline-content .cd-date {
+    .cd-timeline-content .cd-date {
         position: absolute;
         width: 100%;
         left: 122%;
         top: 6px;
         font-size: 16px;
         font-size: 1rem;
-    } */
+    }
 
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
