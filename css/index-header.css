@@ -9,7 +9,7 @@ header .languages_red {
 }
 
 header .languages_white {
-    background-color: var(--header-contacts-light);
+    background-color: var(--white-background);
 }
 
 header .languages__item {
@@ -107,7 +107,7 @@ header .contacts__item_black a:hover {
     }
 }
 
-.container-top {
+/* .container-top {
     max-width: 380px;
     margin: auto;
 }
@@ -117,7 +117,7 @@ header .contacts__item_black a:hover {
     flex-direction: column;
     max-width: 332px;
     margin: auto;
-}
+} */
 
 header .banner-bg {
     min-height: 75vh;
