@@ -19,11 +19,11 @@
     scroll-behavior: smooth;
 }
 
-.invitation {
+.application {
     margin: 30px 24px;
 }
 
-.invitation__title {
+.application__title {
     color: var(--headings-dark-color);
     font-size: 34px;
     font-weight: 800;
@@ -32,7 +32,7 @@
     margin-bottom: 10px;
 }
 
-.invitation__divider {
+.application__divider {
     background-color: var(--divider-color);
     height: 2px;
     width: 45px;
@@ -43,73 +43,78 @@
 }
 
 @media (min-width: 480px) {
-    .invitation__divider {
+    .application__divider {
         left: 46vw;
     }
 }
 
 @media (min-width: 768px) {
-    .invitation__divider {
+    .application__divider {
         left: 47vw;
     }
 }
 
 @media (min-width: 1200px) {
-    .invitation__divider {
+    .application__divider {
         left: 48.3vw;
     }
 }
 
-#invite-form {
+#apply-form {
     margin: 30px auto;
     padding: 30px 10px;
 }
 
-/* 
-@media (min-width: 430px) {
-    #invite-form {
-        margin: 30px auto;
-        padding: 30px 30px;
-    }
-} */
 
 @media (min-width: 768px) {
-    .invitation__title {
+    .application__title {
         font-size: 38px;
     }
 }
 
 @media (min-width: 1200px) {
-    .invitation__divider {
+    .application__divider {
         left: 48.3vw;
     }
 }
 
+#comment {
+    width: 100%;
+    height: 6rem;
+}
 
 /* reset */
 form input,
 form textarea,
 form fieldset,
-form label,
 #date .StripeElement {
     font-family: inherit;
     font-size: 0.68rem;
-    color: var(--main-text-color);
     border: none;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
     max-width: 70vw;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
+
+form select {
+    font-family: inherit;
+    font-size: 0.68rem;
+    color: rgb(72, 75, 76, 0.8);
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 70vw;
+}
+
 
 @media (min-width: 768px) {
 
     form input,
     form textarea,
     form fieldset,
-    form label,
+    form select,
+    form option,
     #date .StripeElement {
         font-size: 0.8rem;
 
@@ -121,7 +126,8 @@ form label,
     form input,
     form textarea,
     form fieldset,
-    form label,
+    form select,
+    form option,
     #date .StripeElement {
         font-size: 0.9rem;
         max-width: 50vw;
@@ -131,30 +137,32 @@ form label,
 
 @media (min-width: 1200px) {
 
+    form select {
+        width: 70%;
+        font-size: 1rem;
+    }
+
     form input,
     form textarea,
     form fieldset,
-    form label,
+    form option,
     #date .StripeElement {
         font-size: 1rem;
         max-width: 70%;
     }
 }
 
-#invitation__content {
+/* #application__content {
     width: 100%;
     height: 6rem;
-}
+} */
 
-form label,
-form legend {
-    font-size: 0.825rem;
-    margin-bottom: 0.5rem;
-}
 
 /* border, padding, margin, width */
 form input,
 form textarea,
+form select,
+form option,
 #date .StripeElement {
     box-sizing: border-box;
     border: 1px solid rgb(72, 75, 76, 0.3);
@@ -177,6 +185,7 @@ form textarea:focus,
 form [type="text"],
 form [type="email"],
 form [type="date"],
+form [label],
 .StripeElement {
     width: 100%;
 }
