@@ -1,0 +1,139 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    --main-text-font: 'Open Sans', sans serif;
+    --button-text-font: 'Hind', sans-serif;
+    --main-text-color: #545280;
+    --dark-red-color: rgb(198, 16, 23);
+    --red-accent-color: #ED1C24;
+    --dark-red-desaturated: rgb(242, 95, 100);
+    --red-accent-desaturated: #F68E92;
+    --divider-color: #f50f24;
+    --dark-gray-color: rgb(72, 75, 76);
+    --gray-accent-color: rgb(97, 101, 102);
+    --light-gray-color: #D6D6D6;
+    --light-gray-desaturated: rgb(240, 240, 240);
+    --white-background: #fffafa;
+    --headings-dark-color: #1b1929;
+    scroll-behavior: smooth;
+}
+
+.discography {
+    background: linear-gradient(to bottom, rgba(72, 75, 76, 0.7), rgba(97, 101, 102, 0.7)), url(../img/discography-bg.jfif) no-repeat;
+    background-size: cover;
+    padding: 85px 10px 50px 10px;
+    background-position: 48.44% 35.95%;
+    background-attachment: fixed;
+}
+
+.discography__info {
+    background-color: rgba(97, 101, 102, 0.6);
+    backdrop-filter: blur(2px);
+    margin: 30px auto;
+    padding: 30px 20px 30px 20px;
+}
+
+
+.discography__title {
+    color: var(--white-background);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 10px 24px 10px 24px;
+}
+
+@media (min-width: 768px) {
+    .discography__title {
+        font-size: 38px;
+    }
+}
+
+.discography__divider {
+    background-color: var(--divider-color);
+    height: 2px;
+    width: 45px;
+    position: absolute;
+    z-index: 2;
+    left: 42.5vw;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media (min-width: 480px) {
+    .discography__divider {
+        left: 46vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .discography__divider {
+        left: 47vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .discography__divider {
+        left: 48.3vw;
+    }
+}
+
+
+.discography__general {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.discography__accordeon-general {
+    max-width: 474px;
+}
+
+
+.discography__acc-button {
+    cursor: pointer;
+    padding: 15px 0px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.4s;
+    background-color: transparent;
+    font-family: var(--main-text-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.9px;
+    word-wrap: break-word;
+    text-align: left;
+    color: var(--white-background);
+}
+
+.discography__acc-panel {
+    overflow: hidden;
+    display: none;
+    color: var(--white-background);
+}
+
+hr {
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.discography__btn-icon {
+    display: flex;
+    align-items: center;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: var(--dark-gray-color);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}

@@ -79,12 +79,6 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .invitation__divider {
-        left: 48.3vw;
-    }
-}
-
 
 /* reset */
 form input,
