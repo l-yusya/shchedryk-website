@@ -17,16 +17,17 @@
     scroll-behavior: smooth;
 }
 
+
 .discography {
     background: linear-gradient(to bottom, rgba(72, 75, 76, 0.7), rgba(97, 101, 102, 0.7)), url(../img/discography-bg.jfif) no-repeat;
     background-size: cover;
-    padding: 85px 10px 50px 10px;
+    padding: 85px 15px 50px 15px;
     background-position: 48.44% 35.95%;
     background-attachment: fixed;
 }
 
 .discography__info {
-    background-color: rgba(97, 101, 102, 0.6);
+    background-color: rgba(97, 101, 102, 0.7);
     backdrop-filter: blur(2px);
     margin: 30px auto;
     padding: 30px 20px 30px 20px;
@@ -80,7 +81,7 @@
 
 .discography__general {
     background-color: transparent;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     padding-left: 15px;
     padding-top: 20px;
@@ -88,7 +89,22 @@
 }
 
 .discography__accordeon-general {
-    max-width: 474px;
+    max-width: 478px;
+
+}
+
+@media (min-width: 768px) {
+
+    .discography__accordeon-general {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .discography__accordeon-general {
+        max-width: 768px;
+    }
 }
 
 
@@ -109,15 +125,53 @@
     color: var(--white-background);
 }
 
-.discography__acc-panel {
+
+/* .panel {
     overflow: hidden;
     display: none;
     color: var(--white-background);
+} */
+
+div.panel {
+    display: none;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 10px;
+    color: var(--white-background);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+div.panel p {
+    padding: 15px 15px;
+    display: flex;
+    width: 100%;
+}
+
+.album__content {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.panel-icon {
+    margin-right: 10px;
+}
+
+div.panel.show {
+    display: block;
+    max-width: max-content;
+    max-height: max-content;
 }
 
 hr {
     opacity: 0.4;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .discography__btn-icon {
