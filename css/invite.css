@@ -85,10 +85,8 @@ form input,
 form textarea,
 form fieldset,
 form label,
-#date .StripeElement {
+#date {
     font-family: inherit;
-    font-size: 0.68rem;
-    color: var(--main-text-color);
     border: none;
     border-radius: 8px;
     display: block;
@@ -104,7 +102,7 @@ form label,
     form textarea,
     form fieldset,
     form label,
-    #date .StripeElement {
+    #date {
         font-size: 0.8rem;
 
     }
@@ -116,7 +114,7 @@ form label,
     form textarea,
     form fieldset,
     form label,
-    #date .StripeElement {
+    #date {
         font-size: 0.9rem;
         max-width: 50vw;
 
@@ -129,7 +127,7 @@ form label,
     form textarea,
     form fieldset,
     form label,
-    #date .StripeElement {
+    #date {
         font-size: 1rem;
         max-width: 70%;
     }
@@ -149,7 +147,7 @@ form legend {
 /* border, padding, margin, width */
 form input,
 form textarea,
-#date .StripeElement {
+#date {
     box-sizing: border-box;
     border: 1px solid rgb(72, 75, 76, 0.3);
     background-color: rgba(255, 255, 255, 0.9);
@@ -159,8 +157,7 @@ form textarea,
 
 form input:focus,
 form select:focus,
-form textarea:focus,
-.StripeElement:focus {
+form textarea:focus {
     background-color: white;
     outline-style: solid;
     outline-width: thin;
@@ -170,8 +167,7 @@ form textarea:focus,
 
 form [type="text"],
 form [type="email"],
-form [type="date"],
-.StripeElement {
+form [type="date"] {
     width: 100%;
 }
 
@@ -236,5 +232,36 @@ form select {
 }
 
 #date {
+    display: none;
+}
+
+#invite-form-status {
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--headings-dark-color);
+    font-weight: 700;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 70vw;
+}
+
+@media (min-width: 1024px) {
+
+    #invite-form-status {
+        max-width: 50vw;
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #invite-form-status {
+        max-width: 70%;
+    }
+}
+
+.hidden {
     display: none;
 }

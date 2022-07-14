@@ -9,10 +9,10 @@
 
   dateField.addEventListener("focus", dateFieldSwitch);
 
-  const form = document.getElementById("invite-form");
+  const form = document.getElementById("apply-form");
   async function handleSubmit(event) {
     event.preventDefault();
-    const status = document.getElementById("invite-form-status");
+    const status = document.getElementById("apply-form-status");
     const data = new FormData(event.target);
     fetch(event.target.action, {
       method: form.method,
@@ -23,7 +23,7 @@
     })
       .then((response) => {
         if (response.ok) {
-          status.innerHTML = "Дякуємо за запрошення, ми з вами зв'яжемося!";
+          status.innerHTML = "Дякуємо за заявку, ми з вами зв'яжемося!";
           form.reset();
         } else {
           response.json().then((data) => {
