@@ -122,10 +122,15 @@
 
   const thumbs = document.querySelectorAll(".thumbnail");
   for (let i = 0; i < thumbs.length; i++) {
-    thumbs[i].addEventListener("click", scrollUp, () => showSlide(i));
+    thumbs[i].addEventListener("click", () => showSlide(i), scrollUp);
   }
 
   function scrollUp() {
     document.documentElement.scrollTop = 200;
+  }
+
+  const miniPics = document.querySelectorAll(".minipic");
+  for (let i = 0; i < miniPics.length; i++) {
+    miniPics[i].addEventListener("click", scrollUp);
   }
 })();

@@ -101,6 +101,14 @@
     width: inherit;
 }
 
+.discography__image {
+    display: block;
+    margin: 10px auto;
+    height: 15vh;
+    width: auto;
+    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
 .accordion {
     cursor: pointer;
     padding: 15px 0px;
@@ -224,11 +232,26 @@ hr {
     .videography__divider {
         left: 47vw;
     }
+
+    .discography__image {
+        height: 20vh;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .discography__image {
+        height: 25vh;
+    }
 }
 
 @media (min-width: 1200px) {
     .videography__divider {
         left: 48.3vw;
+    }
+
+    .discography__image {
+        height: 30vh;
     }
 }
 

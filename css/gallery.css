@@ -58,6 +58,7 @@
 .gallery__images--main {
     height: 20vh;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 .gallery__img--main {
