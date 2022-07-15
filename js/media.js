@@ -13,14 +13,30 @@
   });
 })();
 
+// (function () {
+//   const placeholder = document.querySelector(".video__placeholder--container");
+//   const video = placeholder.nextElementSibling;
+
+//   placeholder.addEventListener("click", switchToVideo);
+
+//   function switchToVideo() {
+//     placeholder.style.display = "none";
+//     video.style.display = "block";
+//   }
+// })();
+
 (function () {
-  const placeholder = document.querySelector(".video__placeholder--container");
-  const video = placeholder.nextElementSibling;
+  const arrPictures = document.querySelectorAll(
+    ".video__placeholder--container"
+  );
+  const arrVideos = document.querySelectorAll(".video-insert");
 
-  placeholder.addEventListener("click", switchToVideo);
+  arrPictures.forEach(function (el, index) {
+    el.addEventListener("click", () => switchToVideo(el, index));
+  });
 
-  function switchToVideo() {
-    placeholder.style.display = "none";
-    video.style.display = "block";
+  function switchToVideo(el, index) {
+    el.style.display = "none";
+    arrVideos[index].style.display = "block";
   }
 })();
