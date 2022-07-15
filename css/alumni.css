@@ -1,0 +1,46 @@
+.empty {
+    display: block;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.alumni__title {
+    color: rgba(72, 75, 76, 0.5);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 46px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 80px 15px 10px 15px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+}
+
+
+.loading::after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    border: 8px solid #dddddd;
+    border-top-color: var(--divider-color);
+    border-radius: 50%;
+    transform: rotate(0.16turn);
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+
+    /* Safari support */
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
