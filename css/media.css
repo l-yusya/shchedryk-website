@@ -28,7 +28,7 @@
 
 .discography__title {
     color: var(--white-background);
-    font-size: 34px;
+    font-size: 33px;
     font-weight: 800;
     line-height: 46px;
     text-align: center;
@@ -185,7 +185,7 @@ hr {
     margin-left: 5px;
 }
 
-.active:after {
+.accordion.active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }

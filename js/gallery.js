@@ -126,7 +126,9 @@
   }
 
   function scrollUp() {
-    document.documentElement.scrollTop = 200;
+    if (window.matchMedia("(min-width: 641px)").matches) {
+      document.documentElement.scrollTop = 200;
+    }
   }
 
   const miniPics = document.querySelectorAll(".minipic");

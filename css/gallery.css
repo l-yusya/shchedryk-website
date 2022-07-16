@@ -71,7 +71,7 @@
 
 .gallery__slider {
     position: absolute;
-    z-index: 10;
+    z-index: 8;
     left: 10px;
     right: 10px;
     top: 43%;
