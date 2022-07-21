@@ -1,11 +1,11 @@
 (function () {
   const slides = [
-    `<div class="partners__carousel-item"><img src="./img/partners/cultural.png" alt="Logo of the International Institute of Cultural Diplomacy"></div>`,
-    `<div class="partners__carousel-item"><img src="./img/partners/DD_logo_typo200.png" alt="Doctor Druk logo"></div>`,
-    `<div class="partners__carousel-item"><img src="./img/partners/infopulse.jpg" alt="Infopulse logo"></div>`,
-    `<div class="partners__carousel-item"><img src="./img/partners/katrya-kot.png" alt="Katria Kot logo"></div>`,
-    `<div class="partners__carousel-item"><img src="./img/partners/kpi.jpg" alt="KPI logo"></div>`,
-    `<div class="partners__carousel-item"><img src="./img/partners/tofi-kime.png" alt="Tofi Kime logo"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/cultural.png" alt="Логотип Міжнародного Інституту Культурної дипломатії"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/DD_logo_typo200.png" alt="Логотип Доктор Друк"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/infopulse.jpg" alt="Логотип Інфопульс"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/katrya-kot.png" alt="Логотип Катрі Кот"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/kpi.jpg" alt="Логотип КПІ"></div>`,
+    `<div class="partners__carousel-item"><img src="./img/partners/tofi-kime.png" alt="Логотип Тофі Кіме"></div>`,
   ];
 
   let slideIdx = 0;
