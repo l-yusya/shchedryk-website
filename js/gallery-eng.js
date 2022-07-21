@@ -31,7 +31,7 @@
             alt=""
                 class="gallery__img--main">
                         <p class="gallery__img--text">
-         Ukraine, Kyiv. National Philharmonic. Column hall named 
+         Ukraine, Kyiv. National Philharmonic. Colonnade Hall named 
          after Lysenko. Jubilee concert on the occasion of the 
          choir's 10th anniversary. 1981
          </p> 
@@ -52,7 +52,7 @@
                         <p id="gallery__img--text-small" class="gallery__img--text">
          Germany, Kronberg. Berliner Platz. Speech from the
           commemoration of M. Rostropovich
-          "Meeting Glory". Ceremonial speech of the Director of
+          "Meeting with Glory". Ceremonial speech of the Director of
           Rostropovich cello foundation and Kronberg Academy
           Raimund Trenklier. 2011
          </p> 
@@ -62,7 +62,7 @@
             alt=""
                 class="gallery__img--main">
                         <p class="gallery__img--text">
-         Ukraine, Kyiv. National Philharmonic. Column hall named 
+         Ukraine, Kyiv. National Philharmonic. Colonnade Hall named 
          after Lysenko. Premiere performance of G. Kancheli's work 
          "Angels of Sorrow" in Ukraine. Open rehearsal. 2015
          </p> 
@@ -83,7 +83,7 @@
                 class="gallery__img--main">
                         <p class="gallery__img--text">
          Ukraine, Kyiv. National Philharmonic. 
-         Column hall named after Lysenko. 
+         Colonnade Hall named after Lysenko. 
          Jubilee concert on the occasion of the 
          choir's 40th anniversary. 2011
          </p> 
