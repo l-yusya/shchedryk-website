@@ -43,7 +43,7 @@
     font-family: var(--main-text-font);
     font-size: 0.95rem;
     font-weight: 400;
-    color: var(--main-text-color);
+    color: var(--headings-dark-color);
     line-height: 1.6rem;
     text-align: left;
     overflow-wrap: break-word;

@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     --main-text-font: 'Open Sans', sans serif;
     --button-text-font: 'Hind', sans-serif;
-    --main-text-color: #545280;
+    --main-text-color: #1b1929;
     --dark-red-color: rgb(198, 16, 23);
     --red-accent-color: #ED1C24;
     --dark-red-desaturated: rgb(242, 95, 100);
@@ -12,7 +12,7 @@
     --divider-color: #f50f24;
     --dark-gray-color: rgb(72, 75, 76);
     --gray-accent-color: rgb(97, 101, 102);
-    --light-gray-color: #D6D6D6;
+    --light-gray-color: rgb(214, 214, 214);
     --light-gray-desaturated: rgb(240, 240, 240);
     --white-background: #fffafa;
     --headings-dark-color: #1b1929;

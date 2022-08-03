@@ -4,9 +4,10 @@ header .languages {
 }
 
 header .languages_red {
-    background-color: var(--dark-red-color);
+    background-color: var(--gray-accent-color);
     padding: 0 24px;
 }
+
 
 header .languages_white {
     background-color: var(--white-background);
