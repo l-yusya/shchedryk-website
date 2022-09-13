@@ -66,6 +66,8 @@
          Україна, Київ. Національна філармонія. 
          Колонна зала ім. Лисенко. Прем’єрне виконання 
          в Україні твору Г.Канчелі «Янголи печалі». 
+         Київський камерний оркестр, 
+         диригент - Роман Кофман, соліст - Ґідон Кремер.
          Відкрита репетиція. 2015 р.
          </p> 
     </div>`,
@@ -86,6 +88,7 @@
                         <p class="gallery__img--text">
          Україна, Київ. Національна філармонія. Колонна зала 
          ім. Лисенко. Ювілейний концерт з нагоди 40-річчя хору. 
+         Київський камерний оркестр, диригент - Віталій Протасов.
          2011 р.
          </p> 
     </div>`,
@@ -95,7 +98,7 @@
                 class="gallery__img--main">
                         <p class="gallery__img--text">
          Німеччина, Кронберг. Музична академія 
-         ім. М. Ростроповича
+         ім. М. Ростроповича. 2011 р.
          </p> 
     </div>`,
     `<div class="carousel__item">
@@ -106,7 +109,9 @@
          Німеччина, Кронберг. Johanniskirche Kronberg. 
          Концертний виступ на Міжнародному фестивалі 
          камерної музики «Kronberg academy Festival». 
-         2013 р.
+         Камерний оркестр Kremerata Baltica, солісти - 
+         Ґідон Кремер і Гедре Дірванаускайте, диригент - 
+         Ніколоз Рачвелі. 2013 р.
          </p> 
     </div>`,
     `<div class="carousel__item">
@@ -136,18 +141,182 @@
          Німеччина, Берлін. Філармонія Берліну. 
          Камерна музична сцена. Концерт у підтримку 
          політичних в’язнів Росії «To Russia 
-         with love». 2013 р.
+         with love». Камерний оркестр Kremerata Baltica, 
+         солісти - Ґідон Кремер і Гедре Дірванаускайте, 
+         диригент - Ніколоз Рачвелі. 2013 р.
          </p> 
     </div>`,
     `<div class="carousel__item">
-        <img src="img/gallery/foto-16.jpg"
+        <img src="img/gallery/foto-15.jpg"
             alt=""
                 class="gallery__img--main">
         <p class="gallery__img--text">
          Австрія, Локенхуаз. Lockenhaus Kirche. 
          Після виступу на Міжнародному музичному 
-         фестивалі «Kammermusikfest Lockenhaus». 
+         фестивалі «Kammermusikfest Lockenhaus»
+         з засновником фестивалю Ґідоном Кремером. 
          2008 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-16.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Австрія, Відень. 
+         Конкурсний виступ на Міжнародному молодіжному
+         музичному фестивалі «Summa Cum Laude»
+         у Золотій Залі Віденьскої філармонії «Musikverein». 
+         2019 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-17.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Австрія, Відень. 
+         Концерт в рамках Міжнародного молодіжного
+         музичного фестивалю «Summa Cum Laude»
+         у концертній залі «MuTh». 
+         2019 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-18.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Австрія, Відень. 
+         Виступ на Гала-концерті переможців 
+         Міжнародного молодіжного
+         музичного фестивалю «Summa Cum Laude»
+         у Великій Залі «Wiener Konzerthaus». 
+         2019 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-19.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Італія, Флоренція. Церква San Filippo Neri. 
+         Виступ в рамках Міжнародного Флорентійського 
+         Фестивалю Хорів та Оркестрів. 
+         2018 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-20.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Італія, Флоренція. Абатство Badia Fiorentina. 
+         Виступ на святковому гала-концерті 
+         Міжнародного Флорентійського 
+         Фестивалю Хорів та Оркестрів. 
+         2018 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-21.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Австрія, Клостернойбург. Концерт у 
+         монастирі Stift Klosterneuburg. 
+         2019 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-22.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Канада, Павелл-Рівер.  
+         Вручення ґран-прі на Міжнародному 
+         хоровому конкурсі «Kathaumixw».
+         1990 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-23.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Україна, Запоріжжя. Концертний зал іменi М.І.Глінки. 
+         Концерт в рамках українського туру 
+         «Українські музичні сезони
+         хору Щедрик». 2006 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-24.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Україна, Харків. Концертний зал обласної філармонії. 
+         Концерт в рамках українського туру 
+         «Українські музичні сезони
+         хору Щедрик». 2007 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-25.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Україна, Львів. Будинок органної та камерної музики. 
+         Концерт в рамках українського туру 
+         «Українські музичні сезони
+         хору Щедрик». 2006 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-26.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Україна, Київ. Національна філармонія. Колонна зала 
+         ім. Лисенко. Ювілейний концерт з нагоди 35-річчя хору. 2006 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-27.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Австрія, Зальцбург. Велика Зала Зальцбурзького Університету. 
+         Концерт в рамках Міжнародного музичного та культурного фестивалю 
+         «Cantus MM». 2007 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-28.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Україна, Київ. Концерт в костелі Святого Олександра. 
+         2007 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-29.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Естонія, Лутіке.  
+         Концерт в рамках фестивалю Leigo Lake Music. 2015 р.
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-30.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Швеція, Стокгольм. Концертна Зала Eric Ericsonhallen. 
+         Концерт в рамках Першого Українського Музичного Фестивалю 
+         в Швеції «Переосмислюючи Європу: Україна». 2017 р.
          </p> 
     </div>`,
   ];
