@@ -51,6 +51,7 @@
     padding: 30px 20px 30px 20px;
 }
 
+
 .contacts__address {
     display: block;
     text-align: center;
@@ -80,9 +81,13 @@
 }
 
 .contacts__contact-person {
-    display: flex;
-    justify-content: space-around;
+    display: block;
     padding: 10px 15px 10px 15px;
+}
+
+.contact-person_info {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .contact-person__title {
@@ -137,10 +142,15 @@
     text-decoration: underline;
 }
 
-.contacts__map {
+.contacts__map--mobile {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts__map--pc {
+    display: none
 }
 
 .map {
@@ -148,26 +158,60 @@
     height: 188px;
 }
 
+.contact-person-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contact-social {
+    width: 40px;
+    padding-left: 15px;
+}
+
 @media (min-width: 480px) {
     .map {
         width: 345px;
         height: 260px;
     }
+
 }
 
 @media (min-width: 768px) {
-    .address__wrapper {
+
+    .contacts__address {
+        align-self: center;
+        padding-right: 20px;
+    }
+
+    .address__wrapper--info {
         display: flex;
-        align-items: center;
-        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    .contacts__contact-person {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
 @media (min-width: 1200px) {
+
     .address__wrapper {
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .contacts__map--mobile {
+        display: none
+    }
+
+    .contacts__map--pc {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .map {
@@ -189,10 +233,12 @@
 
     .contact-person__title {
         font-size: 1.5rem;
+        padding-top: 40px;
     }
 
     .contact-person_info {
         padding: 10px 20px;
+        text-align: left;
     }
 
     .contact-person {
@@ -213,5 +259,13 @@
         font-size: 1rem;
     }
 
+    .contact-person-phone {
+        display: flex;
+        justify-content: left;
+    }
 
+    .contact-social {
+        width: 40px;
+        padding-left: 15px;
+    }
 }
