@@ -51,8 +51,10 @@
     padding: 30px 20px 30px 20px;
 }
 
+
 .contacts__address {
     display: block;
+    text-align: center;
     padding: 10px 15px 10px 15px;
 }
 
@@ -83,8 +85,16 @@
     padding: 10px 15px 10px 15px;
 }
 
+.contact-person_info {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 .contact-person__title {
     color: var(--white-background);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     overflow-wrap: break-word;
@@ -103,7 +113,16 @@
     width: 100px;
     object-fit: cover;
     object-position: 38% 5%;
-    margin: 10px 0;
+    margin: 10px auto;
+}
+
+.contact-person__photo-cut {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    object-fit: cover;
+    object-position: 38% 80%;
+    margin: 10px auto;
 }
 
 .contact-person__phone,
@@ -123,10 +142,15 @@
     text-decoration: underline;
 }
 
-.contacts__map {
+.contacts__map--mobile {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts__map--pc {
+    display: none
 }
 
 .map {
@@ -134,31 +158,65 @@
     height: 188px;
 }
 
+.contact-person-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contact-social {
+    width: 40px;
+    padding-left: 15px;
+}
+
 @media (min-width: 480px) {
     .map {
         width: 345px;
         height: 260px;
     }
+
 }
 
 @media (min-width: 768px) {
-    .address__wrapper {
+
+    .contacts__address {
+        align-self: center;
+        padding-right: 20px;
+    }
+
+    .address__wrapper--info {
         display: flex;
-        align-items: center;
-        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    .contacts__contact-person {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
 @media (min-width: 1200px) {
+
     .address__wrapper {
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
+    .contacts__map--mobile {
+        display: none
+    }
+
+    .contacts__map--pc {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .map {
-        width: 600px;
-        height: 450px;
+        width: 500px;
+        height: 350px;
     }
 
     .address__title {
@@ -175,6 +233,12 @@
 
     .contact-person__title {
         font-size: 1.5rem;
+        padding-top: 40px;
+    }
+
+    .contact-person_info {
+        padding: 10px 20px;
+        text-align: left;
     }
 
     .contact-person {
@@ -183,7 +247,8 @@
         line-height: 1.5rem;
     }
 
-    .contact-person__photo {
+    .contact-person__photo,
+    .contact-person__photo-cut {
         width: 120px;
     }
 
@@ -194,5 +259,13 @@
         font-size: 1rem;
     }
 
+    .contact-person-phone {
+        display: flex;
+        justify-content: left;
+    }
 
+    .contact-social {
+        width: 40px;
+        padding-left: 15px;
+    }
 }

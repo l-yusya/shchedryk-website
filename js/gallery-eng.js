@@ -111,7 +111,7 @@
             alt=""
                 class="gallery__img--main">
                         <p class="gallery__img--text">
-         Vatican. St. Paul's Cathedral. Competitive performance 
+         Vatican. St. Paul's Cathedral. Competition performance 
          at the International Choir Competition 
          "Musica Sacra a Roma". 2005
          </p> 
@@ -136,13 +136,166 @@
          </p> 
     </div>`,
     `<div class="carousel__item">
-        <img src="img/gallery/foto-16.jpg"
+        <img src="img/gallery/foto-15.jpg"
             alt=""
                 class="gallery__img--main">
         <p class="gallery__img--text">
-         Austria, Lockenhuaz. Lockenhaus Kirche. 
+         Austria, Lockenhaus. Lockenhaus Kirche. 
          After the performance at the International 
          Music Festival "Kammermusikfest Lockenhaus". 2008
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-16.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Austria, Vienna.  The Golden Hall of the Musikverein.
+         Competition performance at Summa Cum Laude International 
+         Youth Music Festival. 
+         2019
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-17.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Austria, Vienna. MuTh concert hall.
+         SCL International 
+         Youth Music Festival concert.
+         2019
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-18.jpeg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Austria, Vienna. The Great Hall of the 
+        Wiener Konzerthaus. The Winners 
+        Gala-concert performance at SCL International 
+         Youth Music Festival. 2019
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-19.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Italy, Florence. San Filippo Neri church. 
+         Concert at Florence International Choir 
+         & Orchestra Festival. 2018
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-20.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Italy, Florence. Badia Fiorentina. 
+         Gala-concert performance at  
+         Florence International Choir 
+         & Orchestra Festival. 2018
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-21.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Austria, Klosterneuburg. Concert at
+           Stift Klosterneuburg monastery. 
+         2019
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-22.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Canada, Powell River. Receiving the Grand 
+         Prix at the International Choir 
+         Competition "Kathaumixw".
+         1990
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-23.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Ukraine, Zaporizhzhia. Concert hall named after M. I. Glinka.
+          Concert as part of the Ukrainian tour
+          "Shchedryk Ukrainian musical seasons". 2006
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-24.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Ukraine, Kharkiv. Concert Hall of the Regional Philharmonic.
+          Concert as part of the Ukrainian tour
+         "Shchedryk Ukrainian musical seasons". 2007
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-25.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Ukraine, Lviv. House of organ and chamber music.
+          Concert as part of the Ukrainian tour
+         "Shchedryk Ukrainian musical seasons". 2006
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-26.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Ukraine, Kyiv. National Philharmonic. Column hall
+          named after Lysenko. Jubilee concert on the occasion 
+          of the choir's 35th anniversary. 2006
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-27.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Austria, Salzburg. The Great Hall of the University of Salzburg.
+          Concert as part of the International Music and Culture Festival
+          "Cantus MM". 2007
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-28.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Ukraine, Kyiv. Concert in the Church of St. Alexander. 
+         2007
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-29.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+        Estonia, Lutike.
+          Concert at Leigo Lake Music festival. 2015
+         </p> 
+    </div>`,
+    `<div class="carousel__item">
+        <img src="img/gallery/foto-30.jpg"
+            alt=""
+                class="gallery__img--main">
+        <p class="gallery__img--text">
+         Sweden, Stockholm. Eric Ericsonhallen Concert Hall.
+          Concert as part of the First Ukrainian Music Festival
+          in Sweden "Rethinking Europe: Ukraine". 2017 
          </p> 
     </div>`,
   ];

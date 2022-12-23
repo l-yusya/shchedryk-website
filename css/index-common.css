@@ -10,14 +10,28 @@
     --dark-red-desaturated: rgb(242, 95, 100);
     --red-accent-desaturated: #F68E92;
     --divider-color: #f50f24;
-    --dark-gray-color: rgb(72, 75, 76);
-    --gray-accent-color: rgb(97, 101, 102);
-    --light-gray-color: rgb(214, 214, 214);
+    --dark-gray-color: #484b4c;
+    --gray-accent-color: #616566;
+    --light-gray-color: #d6d6d6;
     --light-gray-desaturated: rgb(240, 240, 240);
     --white-background: #fffafa;
     --headings-dark-color: #1b1929;
     scroll-behavior: smooth;
 }
+
+/* html {
+    scrollbar-width: thin;
+    scrollbar-color: #ED1C24 #F68E92;
+  }
+  html::-webkit-scrollbar {
+    width: 1vw;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: #F68E92;
+  }
+  html::-webkit-scrollbar-track {
+    background-color: #d6d6d6;
+  } */
 
 * {
     margin: 0;
