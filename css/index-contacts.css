@@ -116,14 +116,14 @@
     margin: 10px auto;
 }
 
-.contact-person__photo-cut {
+/* .contact-person__photo-cut {
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     width: 100px;
     object-fit: cover;
     object-position: 38% 80%;
     margin: 10px auto;
-}
+} */
 
 .contact-person__phone,
 .phone__link,
