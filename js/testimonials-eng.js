@@ -38,38 +38,38 @@
                 <img src="img/quotes.png" alt="Лапки">
               </div>
             </div>`,
-    `<div class="testimonials__block carousel-item">
-              <img class="testimonials__photo" src="img/testimonials/testimonial-sviatoslav-vakarchuk.png"
-              alt="Svyatoslav Vakarchuk" />
-              <h3 class="testimonials__block--name">Svyatoslav Vakarchuk</h3>
-              <p class="testimonials__block--title">soloist of the band "Ocean Elsy"</p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-              <p class="testimonials__block--text">
-                We must bow to these young children who carry our music, our culture abroad. 
-                They do it qualitatively, beautifully and sincerely. Shchedryk is the pride of Ukraine.
-              </p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-            </div>`,
-    `<div class="testimonials__block carousel-item">
-              <img class="testimonials__photo" src="img/testimonials/testimonial-borys-tevlin.png"
-              alt="Boris Tevlin" />
-              <h3 class="testimonials__block--name">Boris Tevlin</h3>
-              <p class="testimonials__block--title">хормейстер, професор</p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-              <p class="testimonials__block--text">
-                The victory of the Kyiv children's choir "Shchedryk" in Rome 
-                was an absolute victory of Ukrainian choral art in the world.
-              </p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-            </div>`,
+    // `<div class="testimonials__block carousel-item">
+    //           <img class="testimonials__photo" src="img/testimonials/testimonial-sviatoslav-vakarchuk.png"
+    //           alt="Svyatoslav Vakarchuk" />
+    //           <h3 class="testimonials__block--name">Svyatoslav Vakarchuk</h3>
+    //           <p class="testimonials__block--title">soloist of the band "Ocean Elsy"</p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //           <p class="testimonials__block--text">
+    //             We must bow to these young children who carry our music, our culture abroad. 
+    //             They do it qualitatively, beautifully and sincerely. Shchedryk is the pride of Ukraine.
+    //           </p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //         </div>`,
+    // `<div class="testimonials__block carousel-item">
+    //           <img class="testimonials__photo" src="img/testimonials/testimonial-borys-tevlin.png"
+    //           alt="Boris Tevlin" />
+    //           <h3 class="testimonials__block--name">Boris Tevlin</h3>
+    //           <p class="testimonials__block--title">хормейстер, професор</p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //           <p class="testimonials__block--text">
+    //             The victory of the Kyiv children's choir "Shchedryk" in Rome 
+    //             was an absolute victory of Ukrainian choral art in the world.
+    //           </p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //         </div>`,
     `<div class="testimonials__block carousel-item">
               <img class="testimonials__photo" src="img/testimonials/testimonial-benedict-xvi.png"
               alt="Pope Benedict XVI" />

@@ -92,13 +92,15 @@
     filter: contrast(1.4);
 }
 
-.music-halls__list {
+.music-halls__list,
+.movies__list {
     padding-top: 20px;
     padding-right: 20px;
     list-style-image: url("../img/music_note_smaller.svg");
 }
 
-.music-halls__list--item {
+.music-halls__list--item,
+.movies__list--item {
     color: var(--headings-dark-color);
     font-weight: 500;
     padding: 5px 0;
@@ -137,7 +139,8 @@
         left: 47vw;
     }
 
-    .music-halls__list {
+    .music-halls__list,
+    .movies__list {
         list-style-image: url("../img/music_note_small.svg");
     }
 }
@@ -149,7 +152,8 @@
         left: 47vw;
     }
 
-    .music-halls__list {
+    .music-halls__list,
+    .movies__list {
         list-style-image: url("../img/music_note_small.svg");
     }
 }

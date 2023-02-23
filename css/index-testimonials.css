@@ -269,28 +269,38 @@
         margin-right: 60px;
         top: 40%;
     }
+ 
+    .feedbacks-wrapper__slider-round-block {
+        margin-top: 20px;
+    }
+
+    .feedbacks-wrapper__slider-round {
+        margin-top: 20px;
+    }
+
 }
 
 @media (min-width: 1200px) {
+
+    .feedbacks-wrapper__slider-round-block {
+        margin-top: 30px;
+    }
+
+    .feedbacks-wrapper__slider-round {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1920px) {
     .testimonials__container {
-        height: 55vh;
+        height: 30vh;
+    }
+   
+    .feedbacks-wrapper__slider-round-block {
+        margin-top: 100px;
     }
 
-    .testimonials__slider_button-image {
-        width: 30px;
-        height: 30px;
-    }
-
-    .testimonials__slider {
-        left: 60px;
-        right: 60px;
-        margin-left: 100px;
-        margin-right: 100px;
-        top: 40%;
-    }
-
-    .testimonials__block--text {
-        font-size: 1rem;
-        max-width: 60%;
+    .feedbacks-wrapper__slider-round {
+        margin-top: 100px;
     }
 }

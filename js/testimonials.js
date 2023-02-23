@@ -36,40 +36,40 @@
                 <img src="img/quotes.png" alt="Лапки">
               </div>
             </div>`,
-    `<div class="testimonials__block carousel-item">
-              <img class="testimonials__photo" src="img/testimonials/testimonial-sviatoslav-vakarchuk.png"
-              alt="Святослав Вакарчук" />
-              <h3 class="testimonials__block--name">Святослав Вакарчук</h3>
-              <p class="testimonials__block--title">соліст гурту "Океан Ельзи"</p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-              <p class="testimonials__block--text">
-                Треба вклонитися цим маленьким дітям, які несуть нашу музику, нашу культуру за кордон. Роблять це
-                якісно,
-                красиво та щиро.
-                «Щедрик» — це гордість України.
-              </p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-            </div>`,
-    `<div class="testimonials__block carousel-item">
-              <img class="testimonials__photo" src="img/testimonials/testimonial-borys-tevlin.png"
-              alt="Борис Тевлін" />
-              <h3 class="testimonials__block--name">Борис Тевлін</h3>
-              <p class="testimonials__block--title">хормейстер, професор</p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-              <p class="testimonials__block--text">
-                Перемога київського дитячого хору «Щедрик» у Римі стала безумовною перемогою українського хорового
-                мистецтва у світі.
-              </p>
-              <div class="quotation-mark">
-                <img src="img/quotes.png" alt="Лапки">
-              </div>
-            </div>`,
+    // `<div class="testimonials__block carousel-item">
+    //           <img class="testimonials__photo" src="img/testimonials/testimonial-sviatoslav-vakarchuk.png"
+    //           alt="Святослав Вакарчук" />
+    //           <h3 class="testimonials__block--name">Святослав Вакарчук</h3>
+    //           <p class="testimonials__block--title">соліст гурту "Океан Ельзи"</p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //           <p class="testimonials__block--text">
+    //             Треба вклонитися цим маленьким дітям, які несуть нашу музику, нашу культуру за кордон. Роблять це
+    //             якісно,
+    //             красиво та щиро.
+    //             «Щедрик» — це гордість України.
+    //           </p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //         </div>`,
+    // `<div class="testimonials__block carousel-item">
+    //           <img class="testimonials__photo" src="img/testimonials/testimonial-borys-tevlin.png"
+    //           alt="Борис Тевлін" />
+    //           <h3 class="testimonials__block--name">Борис Тевлін</h3>
+    //           <p class="testimonials__block--title">хормейстер, професор</p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //           <p class="testimonials__block--text">
+    //             Перемога київського дитячого хору «Щедрик» у Римі стала безумовною перемогою українського хорового
+    //             мистецтва у світі.
+    //           </p>
+    //           <div class="quotation-mark">
+    //             <img src="img/quotes.png" alt="Лапки">
+    //           </div>
+    //         </div>`,
     `<div class="testimonials__block carousel-item">
               <img class="testimonials__photo" src="img/testimonials/testimonial-benedict-xvi.png"
               alt="Папа Римський Бенедикт XVI" />
