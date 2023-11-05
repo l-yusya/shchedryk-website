@@ -177,7 +177,7 @@
 
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
     .contacts__address {
         align-self: center;
@@ -193,9 +193,9 @@
         display: flex;
         justify-content: space-evenly;
     }
-}
+} */
 
-@media (min-width: 1200px) {
+@media (min-width: 870px) {
 
     .address__wrapper {
         display: flex;
@@ -238,7 +238,7 @@
 
     .contact-person_info {
         padding: 10px 20px;
-        text-align: left;
+        /* text-align: left; */
     }
 
     .contact-person {
@@ -261,7 +261,7 @@
 
     .contact-person-phone {
         display: flex;
-        justify-content: left;
+        /* justify-content: left; */
     }
 
     .contact-social {
