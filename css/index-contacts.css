@@ -177,7 +177,7 @@
 
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 
     .contacts__address {
         align-self: center;
@@ -193,7 +193,7 @@
         display: flex;
         justify-content: space-evenly;
     }
-} */
+}
 
 @media (min-width: 870px) {
 
