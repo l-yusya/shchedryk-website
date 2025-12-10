@@ -376,7 +376,7 @@ hr {
     display: none;
     width: 100%;
     height: auto;
-    aspect-ratio: 1 /0.75;
+    aspect-ratio: 16 / 9;
 }
 
 .play-button:hover {
@@ -390,4 +390,10 @@ hr {
 
 .video__placeholder--container:hover>.play-button {
     background-color: var(--red-accent-color);
+}
+
+.video-frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
 }
